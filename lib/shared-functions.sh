@@ -85,7 +85,7 @@ function set_server_pro_image_name() {
   else
     image_name="sharelatex/sharelatex"
   fi
-  export IMAGE="$image_name:$version"
+  export IMAGE="$image_name"
 }
 
 function set_git_bridge_image_name() {
